@@ -1,0 +1,1741 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.23f1 (1c4764c07fb4) revision 1853284'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15755 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+A:/2D_Platformer_Auro
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59026
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: A:/2D_Platformer_Auro
+A:/2D_Platformer_Auro
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32976]  Target information:
+
+Player connection [32976]  * "[IP] 172.92.1.185 [Port] 0 [Flags] 2 [Guid] 3768042689 [EditorId] 3768042689 [Version] 1048832 [Id] WindowsEditor(7,Deatheater) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [32976] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32976] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 437.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path A:/2D_Platformer_Auro/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     7877 MB
+    Driver:   30.0.13044.14002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010306 seconds.
+- Loaded All Assemblies, in 20.263 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.084 seconds
+Domain Reload Profiling: 21341ms
+	BeginReloadAssembly (15791ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (1610ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (153ms)
+	LoadAllAssembliesAndSetupDomain (2666ms)
+		LoadAssemblies (15784ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2658ms)
+			TypeCache.Refresh (2655ms)
+				TypeCache.ScanAssembly (1694ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1085ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (954ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (68ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (19ms)
+			ProcessInitializeOnLoadAttributes (605ms)
+			ProcessInitializeOnLoadMethodAttributes (241ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 10.791 seconds
+Refreshing native plugins compatible for Editor in 4.84 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.968 seconds
+Domain Reload Profiling: 14753ms
+	BeginReloadAssembly (5229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (99ms)
+	RebuildNativeTypeToScriptingClass (46ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (5305ms)
+		LoadAssemblies (4630ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (941ms)
+			TypeCache.Refresh (673ms)
+				TypeCache.ScanAssembly (533ms)
+			BuildScriptInfoCaches (231ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (3969ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2548ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (188ms)
+			ProcessInitializeOnLoadAttributes (1473ms)
+			ProcessInitializeOnLoadMethodAttributes (840ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 5.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6528 unused Assets / (5.0 MB). Loaded Objects now: 7306.
+Memory consumption went from 197.7 MB to 192.7 MB.
+Total: 23.233100 ms (FindLiveObjects: 1.322000 ms CreateObjectMapping: 1.428200 ms MarkObjects: 13.856700 ms  DeleteObjects: 6.623300 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.005 seconds
+Refreshing native plugins compatible for Editor in 2.73 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.726 seconds
+Domain Reload Profiling: 4730ms
+	BeginReloadAssembly (557ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (41ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (127ms)
+	RebuildCommonClasses (113ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (1220ms)
+		LoadAssemblies (897ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (611ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (555ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (2728ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1892ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (194ms)
+			ProcessInitializeOnLoadAttributes (1478ms)
+			ProcessInitializeOnLoadMethodAttributes (170ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 4.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6526 unused Assets / (4.7 MB). Loaded Objects now: 7309.
+Memory consumption went from 166.5 MB to 161.8 MB.
+Total: 20.602500 ms (FindLiveObjects: 1.325500 ms CreateObjectMapping: 1.630900 ms MarkObjects: 11.913100 ms  DeleteObjects: 5.730500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.975 seconds
+Refreshing native plugins compatible for Editor in 3.17 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.863 seconds
+Domain Reload Profiling: 4836ms
+	BeginReloadAssembly (673ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (154ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1100ms)
+		LoadAssemblies (947ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (537ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (481ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (2864ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1982ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (192ms)
+			ProcessInitializeOnLoadAttributes (1552ms)
+			ProcessInitializeOnLoadMethodAttributes (189ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 4.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6526 unused Assets / (5.1 MB). Loaded Objects now: 7311.
+Memory consumption went from 166.5 MB to 161.4 MB.
+Total: 22.067200 ms (FindLiveObjects: 1.363500 ms CreateObjectMapping: 1.650700 ms MarkObjects: 13.145800 ms  DeleteObjects: 5.903200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 681481.593282 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fc96985895a91a50732ecae9f291c34') in 0.9787571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Dying/0_Fallen_Angels_Dying_013.png
+  artifactKey: Guid(1b4633157ccbb0243b9628b9342fd048) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Dying/0_Fallen_Angels_Dying_013.png using Guid(1b4633157ccbb0243b9628b9342fd048) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c187af47cce37ff3c50fbbaf8e3ded3d') in 0.209888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Hurt/0_Fallen_Angels_Hurt_008.png
+  artifactKey: Guid(3028cae95bba7504eb89c0940d810dbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Hurt/0_Fallen_Angels_Hurt_008.png using Guid(3028cae95bba7504eb89c0940d810dbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5cd83d30193e1d6313111045fca6bdc6') in 0.0694577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Idle/0_Fallen_Angels_Idle_002.png
+  artifactKey: Guid(2e05fb4ac06d5a244a2ae26e97dbc6ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Idle/0_Fallen_Angels_Idle_002.png using Guid(2e05fb4ac06d5a244a2ae26e97dbc6ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f7ebee47336b6d73afcaaa823b02eaeb') in 0.0783623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Idle/0_Fallen_Angels_Idle_009.png
+  artifactKey: Guid(c901d5adeae50714d8dc89ca4cbf7f5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Idle/0_Fallen_Angels_Idle_009.png using Guid(c901d5adeae50714d8dc89ca4cbf7f5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01b1e21b54f2fc4ba9d9bd5d1608c0aa') in 0.0865138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Idle/0_Fallen_Angels_Idle_013.png
+  artifactKey: Guid(5ce449e39b700434ab7ad44cc621dfbd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Idle/0_Fallen_Angels_Idle_013.png using Guid(5ce449e39b700434ab7ad44cc621dfbd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b6fb45a13f59584ccb0e54bbea98ee4') in 0.0809559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Dying/0_Fallen_Angels_Dying_000.png
+  artifactKey: Guid(69bee180d96731443acf650ff94e94b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Dying/0_Fallen_Angels_Dying_000.png using Guid(69bee180d96731443acf650ff94e94b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a8b9735f5304b391c70795fd7159176') in 0.0617192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Idle/0_Fallen_Angels_Idle_014.png
+  artifactKey: Guid(cc09d642d701cb04089f83de5bb8b7f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Idle/0_Fallen_Angels_Idle_014.png using Guid(cc09d642d701cb04089f83de5bb8b7f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c223b8c990fcb58127075a903ba98a8') in 0.0667503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Dying/0_Fallen_Angels_Dying_010.png
+  artifactKey: Guid(e49a7ed536af05b4a940f521ce6c8fdf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Dying/0_Fallen_Angels_Dying_010.png using Guid(e49a7ed536af05b4a940f521ce6c8fdf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b2b0b88a3fe55b059968d5756021462') in 0.0714362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Animation/Running.anim
+  artifactKey: Guid(49ed27957602e3143aa5a54cd2df217c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animation/Running.anim using Guid(49ed27957602e3143aa5a54cd2df217c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7815e7e369784d0d73bbea5b451969d') in 0.0826412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Idle Blinking/0_Fallen_Angels_Idle Blinking_008.png
+  artifactKey: Guid(98d1f24df05a0b7459958343856b3f17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Idle Blinking/0_Fallen_Angels_Idle Blinking_008.png using Guid(98d1f24df05a0b7459958343856b3f17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7240b6e9b988a3a0954f35374ea28d4e') in 0.1675679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Run Slashing/0_Fallen_Angels_Run Slashing_006.png
+  artifactKey: Guid(035e1572154dc884aad10f6a513c439d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Run Slashing/0_Fallen_Angels_Run Slashing_006.png using Guid(035e1572154dc884aad10f6a513c439d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2083e8a97a6f9d506edce63a05683f2d') in 0.0649975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Run Slashing/0_Fallen_Angels_Run Slashing_007.png
+  artifactKey: Guid(9138c4923f21fe84aa273e91db46fe82) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Run Slashing/0_Fallen_Angels_Run Slashing_007.png using Guid(9138c4923f21fe84aa273e91db46fe82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e930e6ac328cd45055d6a0af35e44bca') in 0.0634679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Dying/0_Fallen_Angels_Dying_007.png
+  artifactKey: Guid(785da879b38929b40be66b8e65799070) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Dying/0_Fallen_Angels_Dying_007.png using Guid(785da879b38929b40be66b8e65799070) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b561fd1157be0d312df05ffeddf8725e') in 0.0735012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Run Slashing/0_Fallen_Angels_Run Slashing_009.png
+  artifactKey: Guid(a2acf81e7f809414283f96055129e0a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Run Slashing/0_Fallen_Angels_Run Slashing_009.png using Guid(a2acf81e7f809414283f96055129e0a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75f41df4b4ea40dd1b5ffd55fdd78b78') in 0.0700498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Hurt/0_Fallen_Angels_Hurt_002.png
+  artifactKey: Guid(c061292caf47cf7459826324f49bfcd3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Hurt/0_Fallen_Angels_Hurt_002.png using Guid(c061292caf47cf7459826324f49bfcd3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12b171a454baae31c1b8dfd0dc22dc47') in 0.063178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Falling Down/0_Fallen_Angels_Falling Down_000.png
+  artifactKey: Guid(5b35796c15d38b34f9b20b09891b5180) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Falling Down/0_Fallen_Angels_Falling Down_000.png using Guid(5b35796c15d38b34f9b20b09891b5180) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5784beba6ebe52b9efe6501c3a4886a1') in 0.0669881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8ebde30a79710741c581b5345d24206') in 0.0443954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Run Throwing/0_Fallen_Angels_Run Throwing_002.png
+  artifactKey: Guid(f2ef1653aa447b84c9574267d56a5e31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Run Throwing/0_Fallen_Angels_Run Throwing_002.png using Guid(f2ef1653aa447b84c9574267d56a5e31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e235ed1b4c56eb58832e31921cb3f6c6') in 0.061018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Scenes/URP2DSceneTemplate.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38ecd17f871c2a3065cebf8ecde351d7') in 0.0413052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Idle Blinking/0_Fallen_Angels_Idle Blinking_012.png
+  artifactKey: Guid(1f298d94912d605469816277677f9421) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Idle Blinking/0_Fallen_Angels_Idle Blinking_012.png using Guid(1f298d94912d605469816277677f9421) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c0ee565a2b848bd79d7d8721ed9b4cf') in 0.0765986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Falling Down/0_Fallen_Angels_Falling Down_003.png
+  artifactKey: Guid(613eace641b85ed49b9dc58c96f63abf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Falling Down/0_Fallen_Angels_Falling Down_003.png using Guid(613eace641b85ed49b9dc58c96f63abf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2387ef45cf615285e0d531ad664fad4') in 0.0621567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Running/0_Fallen_Angels_Running_003.png
+  artifactKey: Guid(1d59069733d0d8f4d96334456433550c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Running/0_Fallen_Angels_Running_003.png using Guid(1d59069733d0d8f4d96334456433550c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3e842a7319b3df8af12d7b41fe3a2ba') in 0.0615905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Run Throwing/0_Fallen_Angels_Run Throwing_010.png
+  artifactKey: Guid(0fd9e56278ec2fb4c847bf358a3c2e7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Run Throwing/0_Fallen_Angels_Run Throwing_010.png using Guid(0fd9e56278ec2fb4c847bf358a3c2e7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d232b30d99a0f532287013526777b29') in 0.0717435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Idle/0_Fallen_Angels_Idle_017.png
+  artifactKey: Guid(9cc2a627d3156344aa2317218f4215c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Idle/0_Fallen_Angels_Idle_017.png using Guid(9cc2a627d3156344aa2317218f4215c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5d5fa196887ef0a8c7ba74cd6b6a5d7') in 0.0568637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Idle Blinking/0_Fallen_Angels_Idle Blinking_016.png
+  artifactKey: Guid(1664260aa8ec88f4fac965f9f834641f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Idle Blinking/0_Fallen_Angels_Idle Blinking_016.png using Guid(1664260aa8ec88f4fac965f9f834641f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3d209bf8c39fad67370affaf46548b0') in 0.0650499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Running/0_Fallen_Angels_Running_008.png
+  artifactKey: Guid(1b951c8ac8af7384a8460eb6e3f6c055) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Running/0_Fallen_Angels_Running_008.png using Guid(1b951c8ac8af7384a8460eb6e3f6c055) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb1620fb698b52330f828d4d1661b30f') in 0.0697422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Slashing/0_Fallen_Angels_Slashing_001.png
+  artifactKey: Guid(2197291850d1d264e9ee1371705b2e4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Slashing/0_Fallen_Angels_Slashing_001.png using Guid(2197291850d1d264e9ee1371705b2e4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be7aeb456c3bc3759576445c3edb81d5') in 0.0614741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Jump Start/0_Fallen_Angels_Jump Start_002.png
+  artifactKey: Guid(759adeaa0e678f145b72b29e1db59d10) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Jump Start/0_Fallen_Angels_Jump Start_002.png using Guid(759adeaa0e678f145b72b29e1db59d10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c116405b0ca59c5c2866d4cc5d7ad1a3') in 0.0782549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Idle/0_Fallen_Angels_Idle_000.png
+  artifactKey: Guid(07a239de21e407148be3ee823cbf604e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Idle/0_Fallen_Angels_Idle_000.png using Guid(07a239de21e407148be3ee823cbf604e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c11c2d0b06ab2e292bf1c0e7b4908740') in 0.069196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Slashing/0_Fallen_Angels_Slashing_009.png
+  artifactKey: Guid(15d44e37a4584e447bd42629d60d2299) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Slashing/0_Fallen_Angels_Slashing_009.png using Guid(15d44e37a4584e447bd42629d60d2299) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3b1d0cfd506a922de0ab733537802fd') in 0.0629147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Slashing/0_Fallen_Angels_Slashing_004.png
+  artifactKey: Guid(43537658330245344934a38c08b64868) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Slashing/0_Fallen_Angels_Slashing_004.png using Guid(43537658330245344934a38c08b64868) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8244d9f19eef162a76f847b5a69fc4eb') in 0.0642328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Slashing/0_Fallen_Angels_Slashing_008.png
+  artifactKey: Guid(b7cfcd8ef333a054cb9658345acb3ef3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Slashing/0_Fallen_Angels_Slashing_008.png using Guid(b7cfcd8ef333a054cb9658345acb3ef3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22fdb40f97604a616264a4373c94d6cb') in 0.0650442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Slashing/0_Fallen_Angels_Slashing_010.png
+  artifactKey: Guid(7b5ce93dc871e6842ad6b48a72880896) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Slashing/0_Fallen_Angels_Slashing_010.png using Guid(7b5ce93dc871e6842ad6b48a72880896) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46b690e520d526fb5f9a32452d86f246') in 0.0604732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Slashing/0_Fallen_Angels_Slashing_003.png
+  artifactKey: Guid(7b18b53d00b058748a1a79b411badeaf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Slashing/0_Fallen_Angels_Slashing_003.png using Guid(7b18b53d00b058748a1a79b411badeaf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83f8413c27f5e2759ade1e937ab95c5d') in 0.060973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Run Slashing/0_Fallen_Angels_Run Slashing_000.png
+  artifactKey: Guid(a7a1621399c1cd44681ae4b2b7322343) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Run Slashing/0_Fallen_Angels_Run Slashing_000.png using Guid(a7a1621399c1cd44681ae4b2b7322343) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3827686513dfb14a16a500209863a090') in 0.0957091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Jump Start/0_Fallen_Angels_Jump Start_000.png
+  artifactKey: Guid(7aa3dcf0aef25764483f1ed0174ec21b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Jump Start/0_Fallen_Angels_Jump Start_000.png using Guid(7aa3dcf0aef25764483f1ed0174ec21b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '345435faa5a6c473c7e773e7ea2e3580') in 0.0591597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Slashing in The Air/0_Fallen_Angels_Slashing in The Air_011.png
+  artifactKey: Guid(1923bafa910a6f540ad5e3d9f06d00ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Slashing in The Air/0_Fallen_Angels_Slashing in The Air_011.png using Guid(1923bafa910a6f540ad5e3d9f06d00ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '153727328536b7cf4d2778e137653112') in 0.0653228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Idle/0_Fallen_Angels_Idle_007.png
+  artifactKey: Guid(560fb7f06fdcbea46bcd75528202ec97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Idle/0_Fallen_Angels_Idle_007.png using Guid(560fb7f06fdcbea46bcd75528202ec97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13bf5217bf9d866f7836b071ba0dbf18') in 0.0896375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Running/0_Fallen_Angels_Running_005.png
+  artifactKey: Guid(76cc91cc307a67342bf083a7b8461876) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Running/0_Fallen_Angels_Running_005.png using Guid(76cc91cc307a67342bf083a7b8461876) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4f065dfc15a026fcb4fa22bfff04ae9') in 0.0622057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Run Slashing/0_Fallen_Angels_Run Slashing_001.png
+  artifactKey: Guid(75cccda28a4bcb540b9e9257a2052fa4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Run Slashing/0_Fallen_Angels_Run Slashing_001.png using Guid(75cccda28a4bcb540b9e9257a2052fa4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cfbea307c0fa1906776f7724a85ba1cb') in 0.0635905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Throwing/0_Fallen_Angels_Throwing_000.png
+  artifactKey: Guid(7614de866f58e4c43badcb7f3df53ace) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Throwing/0_Fallen_Angels_Throwing_000.png using Guid(7614de866f58e4c43badcb7f3df53ace) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '921185a7f767137091d4a7f81760fec6') in 0.0684391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Slashing/0_Fallen_Angels_Slashing_002.png
+  artifactKey: Guid(3193c4d767f786d4380b8036eb70c532) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Slashing/0_Fallen_Angels_Slashing_002.png using Guid(3193c4d767f786d4380b8036eb70c532) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08dfc5deb207c111770826bb6068f9fb') in 0.0639121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Dying/0_Fallen_Angels_Dying_005.png
+  artifactKey: Guid(629011e2a72b18a46bd1b667de93e991) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Dying/0_Fallen_Angels_Dying_005.png using Guid(629011e2a72b18a46bd1b667de93e991) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01a8fcb20a5d85d05ccddd3d83ad25ac') in 0.0592386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Run Slashing/0_Fallen_Angels_Run Slashing_002.png
+  artifactKey: Guid(d911a1278dfde4f448d7f486192db04e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Run Slashing/0_Fallen_Angels_Run Slashing_002.png using Guid(d911a1278dfde4f448d7f486192db04e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7c0269cf3b61aad5086c82c77bf496e') in 0.0704977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Throwing/0_Fallen_Angels_Throwing_004.png
+  artifactKey: Guid(1ada9ac2b28cfce4ea30d54d0d7d8b7a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Throwing/0_Fallen_Angels_Throwing_004.png using Guid(1ada9ac2b28cfce4ea30d54d0d7d8b7a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5c806c6b4a67b59af00f5eade419786') in 0.0588349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Throwing/0_Fallen_Angels_Throwing_005.png
+  artifactKey: Guid(243d1ca0dc3d2274c95a8dd0689a7023) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Throwing/0_Fallen_Angels_Throwing_005.png using Guid(243d1ca0dc3d2274c95a8dd0689a7023) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9bccf544fa04098cfd248f4d9034129') in 0.0628743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Throwing/0_Fallen_Angels_Throwing_002.png
+  artifactKey: Guid(f1a770e89724ffd46a7b877beeb4ff21) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Throwing/0_Fallen_Angels_Throwing_002.png using Guid(f1a770e89724ffd46a7b877beeb4ff21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c715daf7678b62e6dda3a7742fdcfac') in 0.0667421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Slashing in The Air/0_Fallen_Angels_Slashing in The Air_007.png
+  artifactKey: Guid(05ef6af5aa0e72d469640e57157c1943) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Slashing in The Air/0_Fallen_Angels_Slashing in The Air_007.png using Guid(05ef6af5aa0e72d469640e57157c1943) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ba8e205fce9cb44f904e2ace8d210d4') in 0.0634518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Slashing in The Air/0_Fallen_Angels_Slashing in The Air_006.png
+  artifactKey: Guid(e4d7fd5aa8ec80443ae1c210e773f0c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Slashing in The Air/0_Fallen_Angels_Slashing in The Air_006.png using Guid(e4d7fd5aa8ec80443ae1c210e773f0c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c19e543bd00c2812f113c70b2ce94647') in 0.0761105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Sliding/0_Fallen_Angels_Sliding_000.png
+  artifactKey: Guid(74de03b1dc1e9ca459c653c37c6ed10a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Sliding/0_Fallen_Angels_Sliding_000.png using Guid(74de03b1dc1e9ca459c653c37c6ed10a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84333540a4dc6c2d23e2d4fb482092b0') in 0.064847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Hurt/0_Fallen_Angels_Hurt_009.png
+  artifactKey: Guid(da41bb333d51ebf4ebbef9c378b71e8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Hurt/0_Fallen_Angels_Hurt_009.png using Guid(da41bb333d51ebf4ebbef9c378b71e8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e8fd45e608bb07adecfa826e78ef53e') in 0.0570944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Kicking/0_Fallen_Angels_Kicking_008.png
+  artifactKey: Guid(96ebdb3cf2a011c49bbb6ae861e60993) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Kicking/0_Fallen_Angels_Kicking_008.png using Guid(96ebdb3cf2a011c49bbb6ae861e60993) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fb51e6de046f494d60b615bbd62b474') in 0.0624849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_000.png
+  artifactKey: Guid(6f924c1cd86c4274d877ce18a394c791) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_000.png using Guid(6f924c1cd86c4274d877ce18a394c791) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f3d39dc33e838ae7aaa939431518331') in 0.067853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Slashing in The Air/0_Fallen_Angels_Slashing in The Air_010.png
+  artifactKey: Guid(bf7c002865cc37e41a092fb7c31e05f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Slashing in The Air/0_Fallen_Angels_Slashing in The Air_010.png using Guid(bf7c002865cc37e41a092fb7c31e05f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5670bb00677a680cb3743a2ff57e61ee') in 0.0715209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Jump Loop/0_Fallen_Angels_Jump Loop_000.png
+  artifactKey: Guid(bea61b44addb51840ac3cfb981134e01) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Jump Loop/0_Fallen_Angels_Jump Loop_000.png using Guid(bea61b44addb51840ac3cfb981134e01) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e95d8afe1c1f276e8ffd716cf9c770aa') in 0.0762961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_006.png
+  artifactKey: Guid(36ed7d830a6abcf45949d41de04c9054) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_006.png using Guid(36ed7d830a6abcf45949d41de04c9054) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf47c719aaf0c744b3f7b635adafba70') in 0.0674438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_003.png
+  artifactKey: Guid(3fb9b6d93cfaf5346a33fd4d1469ea3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_003.png using Guid(3fb9b6d93cfaf5346a33fd4d1469ea3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '68d8426b3b2df8bd46bc090b29ce0f52') in 0.0686414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Slashing in The Air/0_Fallen_Angels_Slashing in The Air_008.png
+  artifactKey: Guid(cc67d52d73e891f45924d25c87f8f6c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Slashing in The Air/0_Fallen_Angels_Slashing in The Air_008.png using Guid(cc67d52d73e891f45924d25c87f8f6c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f97c284b26913fbdfffcd0de3879f476') in 0.0746518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Kicking/0_Fallen_Angels_Kicking_000.png
+  artifactKey: Guid(dab57ec04c75d4442bfa9134c40a5cd9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Kicking/0_Fallen_Angels_Kicking_000.png using Guid(dab57ec04c75d4442bfa9134c40a5cd9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0401aae02338b221434df1f874fc439') in 0.0682853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_011.png
+  artifactKey: Guid(07504f73ca959784a9d78220a3116ae7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_011.png using Guid(07504f73ca959784a9d78220a3116ae7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6407848058f6fa8bb6e23d36cf5310f4') in 0.0754225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Idle Blinking/0_Fallen_Angels_Idle Blinking_004.png
+  artifactKey: Guid(39c6ed513f7121642a367849d1b9621c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Idle Blinking/0_Fallen_Angels_Idle Blinking_004.png using Guid(39c6ed513f7121642a367849d1b9621c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4829e76833741fe0330ff51be1a09bce') in 0.0649418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Idle Blinking/0_Fallen_Angels_Idle Blinking_010.png
+  artifactKey: Guid(3de135c0470763744951202f2500a8df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Idle Blinking/0_Fallen_Angels_Idle Blinking_010.png using Guid(3de135c0470763744951202f2500a8df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e4777a9b639d9d3f2b142875d226f00') in 0.0623053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Throwing in The Air/0_Fallen_Angels_Throwing in The Air_000.png
+  artifactKey: Guid(56bdc42dca3eaa141869c5c2396f5d6a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Throwing in The Air/0_Fallen_Angels_Throwing in The Air_000.png using Guid(56bdc42dca3eaa141869c5c2396f5d6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e35c79a27b9c36b545be1bf8a9627578') in 0.0701183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_021.png
+  artifactKey: Guid(b0a7be9f03095f24e98cf0dca9ae3f75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_021.png using Guid(b0a7be9f03095f24e98cf0dca9ae3f75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94ea47acb21ac50253b39e192e375f9b') in 0.0596371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Animation/Attack.anim
+  artifactKey: Guid(8f09ac4c39e5a41478191864a128399e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animation/Attack.anim using Guid(8f09ac4c39e5a41478191864a128399e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee4dafe75cfa09fab8841d8af2e99ae7') in 0.0499704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Slashing in The Air/0_Fallen_Angels_Slashing in The Air_000.png
+  artifactKey: Guid(03972db2527bbb7459143240ad5df349) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Slashing in The Air/0_Fallen_Angels_Slashing in The Air_000.png using Guid(03972db2527bbb7459143240ad5df349) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ef9ab12534632634cbe8cc5ca9ec129') in 0.0674669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Run Throwing/0_Fallen_Angels_Run Throwing_000.png
+  artifactKey: Guid(39e04874492db3c4ba176e39d31a9564) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Run Throwing/0_Fallen_Angels_Run Throwing_000.png using Guid(39e04874492db3c4ba176e39d31a9564) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85f735a7eabfb6d86316400c19a08f98') in 0.0679956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Kicking/0_Fallen_Angels_Kicking_006.png
+  artifactKey: Guid(cbb205d4efa082f4d8751bc158630dcf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Kicking/0_Fallen_Angels_Kicking_006.png using Guid(cbb205d4efa082f4d8751bc158630dcf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c208ccc5165fbcb6a3a00287a7530cf') in 0.0641896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scripts/Health.cs
+  artifactKey: Guid(a15ee38733e587f44996ec1febe68732) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Health.cs using Guid(a15ee38733e587f44996ec1febe68732) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc86fc3b0503d301f53db271114a1b1b') in 0.0246756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7605d51d008d0f9a5b9c2cd5cedc16d2') in 0.1260099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Dying/0_Fallen_Angels_Dying_009.png
+  artifactKey: Guid(45117a4719aefca41a74798f501438af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Dying/0_Fallen_Angels_Dying_009.png using Guid(45117a4719aefca41a74798f501438af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fce31424c9f91578fd6961fe9151a998') in 0.0857202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
+  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a288081996777c5ded2b5a1a2439bfa8') in 0.1787606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_001.png
+  artifactKey: Guid(5e15a3d91ce59dc4cb154ef5cbe36223) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_001.png using Guid(5e15a3d91ce59dc4cb154ef5cbe36223) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28cd2e1dda3aae590973e268300928aa') in 0.065686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Slashing/0_Fallen_Angels_Slashing_000.png
+  artifactKey: Guid(bdf0b0a108df677458579fb5229fd13a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Slashing/0_Fallen_Angels_Slashing_000.png using Guid(bdf0b0a108df677458579fb5229fd13a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8ef225dc5b2ff315bb6a69c1be79c04') in 0.0752174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Falling Down/0_Fallen_Angels_Falling Down_004.png
+  artifactKey: Guid(dd5b9547ffb204a46b2c535a701ba12f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Falling Down/0_Fallen_Angels_Falling Down_004.png using Guid(dd5b9547ffb204a46b2c535a701ba12f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b81733d29e22b52613bbdba827d93236') in 0.0663587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Running/0_Fallen_Angels_Running_010.png
+  artifactKey: Guid(20bf44345e338384dbe594de7e2b4ff3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Running/0_Fallen_Angels_Running_010.png using Guid(20bf44345e338384dbe594de7e2b4ff3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8c97e3d03b8162457287fb1bd5edc10') in 0.0709756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Idle/0_Fallen_Angels_Idle_016.png
+  artifactKey: Guid(7c7bde11bad3f1a43af2677d53728afd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Idle/0_Fallen_Angels_Idle_016.png using Guid(7c7bde11bad3f1a43af2677d53728afd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66bed22b3780b9239c887f6f6dc1a7d2') in 0.0752669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Kicking/0_Fallen_Angels_Kicking_002.png
+  artifactKey: Guid(2fe49017256f5c04da86bb36877d42e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Kicking/0_Fallen_Angels_Kicking_002.png using Guid(2fe49017256f5c04da86bb36877d42e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8788f4e9592d610c0ada87b4bd90cca') in 0.0576904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Slashing in The Air/0_Fallen_Angels_Slashing in The Air_001.png
+  artifactKey: Guid(039df7ecbfdab934c8e8b64efcd2ec33) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Slashing in The Air/0_Fallen_Angels_Slashing in The Air_001.png using Guid(039df7ecbfdab934c8e8b64efcd2ec33) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ac3ebd7379358877c973a4e5cb2937e') in 0.065836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Idle Blinking/0_Fallen_Angels_Idle Blinking_017.png
+  artifactKey: Guid(7cc876f5793099b459b5cbbbdbdf16a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Idle Blinking/0_Fallen_Angels_Idle Blinking_017.png using Guid(7cc876f5793099b459b5cbbbdbdf16a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '287f9793cc7bbf7665aec8ed7eb754af') in 0.1843265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/Gameplay.unity
+  artifactKey: Guid(044ccfe40d3124e498763568f90725e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Gameplay.unity using Guid(044ccfe40d3124e498763568f90725e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b429e9f9683d4406516e9f39450175b9') in 0.0483411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Hurt/0_Fallen_Angels_Hurt_006.png
+  artifactKey: Guid(00cbcafea056b6d42a701f97232f83ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Hurt/0_Fallen_Angels_Hurt_006.png using Guid(00cbcafea056b6d42a701f97232f83ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4c417b507b274fa3ecc97940114d02b') in 0.0587384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Throwing in The Air/0_Fallen_Angels_Throwing in The Air_007.png
+  artifactKey: Guid(64f2865fa15e1e34a90b58842a32f654) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Throwing in The Air/0_Fallen_Angels_Throwing in The Air_007.png using Guid(64f2865fa15e1e34a90b58842a32f654) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b538371a53e3d30e8c20ae4af4f270d') in 0.0845074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Throwing in The Air/0_Fallen_Angels_Throwing in The Air_009.png
+  artifactKey: Guid(cb7d1371f003c6e409441f98dd5bee53) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Throwing in The Air/0_Fallen_Angels_Throwing in The Air_009.png using Guid(cb7d1371f003c6e409441f98dd5bee53) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37152e3d771e28bb6fca982c686ac607') in 0.0643321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_005.png
+  artifactKey: Guid(c5ecd5ce02360df40a9644627ac97b64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_005.png using Guid(c5ecd5ce02360df40a9644627ac97b64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91c00592a517fd0d49564c2813f9bd66') in 0.0589267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Sliding/0_Fallen_Angels_Sliding_005.png
+  artifactKey: Guid(08f1d866a8ff8f8488b644b903d3b27b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Sliding/0_Fallen_Angels_Sliding_005.png using Guid(08f1d866a8ff8f8488b644b903d3b27b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76c8601e3d008957b545daf23c34b981') in 0.0727127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Forest/tiles.png
+  artifactKey: Guid(4d859c0973583bd42b8cf800cfd95b9d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Forest/tiles.png using Guid(4d859c0973583bd42b8cf800cfd95b9d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd2ba4fc96b9e0d474a212eacc1d37a5') in 0.0645258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_018.png
+  artifactKey: Guid(5671c4166951c684aa07d283ab145386) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_018.png using Guid(5671c4166951c684aa07d283ab145386) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a4121e1d3f48274b5684f3290632fe2') in 0.1195977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_007.png
+  artifactKey: Guid(f7838330373e29640b586435afbf392a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_007.png using Guid(f7838330373e29640b586435afbf392a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e5c56022dcc8c47b43bd7c75698fbcd') in 0.0853422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Throwing in The Air/0_Fallen_Angels_Throwing in The Air_001.png
+  artifactKey: Guid(62f9ca94feae7d34d9d976f2b0ed4624) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Throwing in The Air/0_Fallen_Angels_Throwing in The Air_001.png using Guid(62f9ca94feae7d34d9d976f2b0ed4624) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a759ee9b59e4e61230597ca28de9089') in 0.0608952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Animation/Fallen_Angel.controller
+  artifactKey: Guid(c1a889f68d30b3047824ab1101231f34) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animation/Fallen_Angel.controller using Guid(c1a889f68d30b3047824ab1101231f34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d96c189599d04d981e336d2a2fe7352') in 0.0939488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Slashing in The Air/0_Fallen_Angels_Slashing in The Air_004.png
+  artifactKey: Guid(2f285220d115af24a958454b088fe2bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Slashing in The Air/0_Fallen_Angels_Slashing in The Air_004.png using Guid(2f285220d115af24a958454b088fe2bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27b7f09fc43070e71bb75835875a8be8') in 0.0673257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_013.png
+  artifactKey: Guid(867b03e19bc1ed241867ed093f906b0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_013.png using Guid(867b03e19bc1ed241867ed093f906b0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ecb0c85ef0ce0f71d16b6de5b551b7fe') in 0.0761256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_014.png
+  artifactKey: Guid(517e5e4b4a9c8e84ca1a8d59115770b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Walking/0_Fallen_Angels_Walking_014.png using Guid(517e5e4b4a9c8e84ca1a8d59115770b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '361fa817a34a36f2785c173f224288f9') in 0.0603508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Sliding/0_Fallen_Angels_Sliding_004.png
+  artifactKey: Guid(a6772f9fb5fa2d54d8fe501a8a44661c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Sliding/0_Fallen_Angels_Sliding_004.png using Guid(a6772f9fb5fa2d54d8fe501a8a44661c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e8c35060ee014682daf6518bb726631') in 0.0676645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Run Slashing/0_Fallen_Angels_Run Slashing_011.png
+  artifactKey: Guid(383e1c5eb8b99434e98900beb384c6d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Run Slashing/0_Fallen_Angels_Run Slashing_011.png using Guid(383e1c5eb8b99434e98900beb384c6d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '285c70aca2faddde7238ed9bba3ff8d4') in 0.1084939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Throwing/0_Fallen_Angels_Throwing_001.png
+  artifactKey: Guid(255683172c057c24f9b654ef638ce4c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Throwing/0_Fallen_Angels_Throwing_001.png using Guid(255683172c057c24f9b654ef638ce4c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9261e201c76a82375995de483ec83c5') in 0.059694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Dying/0_Fallen_Angels_Dying_004.png
+  artifactKey: Guid(97ac0d6a279e608448a83b40f567e0ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Dying/0_Fallen_Angels_Dying_004.png using Guid(97ac0d6a279e608448a83b40f567e0ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b17c69c9c1fb28cf26e6e9a592903d6') in 0.0607194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Kicking/0_Fallen_Angels_Kicking_004.png
+  artifactKey: Guid(9cdfdbdffe3814a4ab0e910b7062ad07) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Kicking/0_Fallen_Angels_Kicking_004.png using Guid(9cdfdbdffe3814a4ab0e910b7062ad07) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73a58ad4820469bc363fbe9b78d568ef') in 0.0665147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Run Throwing/0_Fallen_Angels_Run Throwing_005.png
+  artifactKey: Guid(8c665d8ccda5e304fa16dac40bd08f45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Run Throwing/0_Fallen_Angels_Run Throwing_005.png using Guid(8c665d8ccda5e304fa16dac40bd08f45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6edf614b0c150aca70c1bd2c43dff6c') in 0.0669908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/Fallen_Angel_1/Throwing in The Air/0_Fallen_Angels_Throwing in The Air_010.png
+  artifactKey: Guid(78b9e6b3aaefbfa46a48afa9adf0408b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Fallen_Angel_1/Throwing in The Air/0_Fallen_Angels_Throwing in The Air_010.png using Guid(78b9e6b3aaefbfa46a48afa9adf0408b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fcdf7cfc79f1b4ad51af304583eb5246') in 0.059516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 915.757488 seconds.
+  path: Assets/Sprites/standard/vertical/no-heart-standard-vertical-empty-1.png
+  artifactKey: Guid(06b124358193a6046b08379b9804a578) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/standard/vertical/no-heart-standard-vertical-empty-1.png using Guid(06b124358193a6046b08379b9804a578) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65d5e5ff54f33faa8eaf7524290d32f3') in 0.0538437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/standard/horizontal/standard-3.png
+  artifactKey: Guid(3504ab3538f046a4699a26175f4109d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/standard/horizontal/standard-3.png using Guid(3504ab3538f046a4699a26175f4109d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93918c2b5c0bfd65ed37073aaeb8757b') in 0.0619808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Sprites/standard/vertical/no-heart-standard-vertical-full-2.png
+  artifactKey: Guid(316962e78aa6d1d479a28916270455f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/standard/vertical/no-heart-standard-vertical-full-2.png using Guid(316962e78aa6d1d479a28916270455f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7233a6276cdc305bbee79e9009821376') in 0.047219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/standard/horizontal
+  artifactKey: Guid(d1fab447745e24b42876ae9b94715b6b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/standard/horizontal using Guid(d1fab447745e24b42876ae9b94715b6b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76a1a44c9832425c969bd986c31a1944') in 0.0231004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/standard/vertical
+  artifactKey: Guid(574f681fa1959074d9892aff0f730a44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/standard/vertical using Guid(574f681fa1959074d9892aff0f730a44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '198aa24556762d7cb7ab07a109f98583') in 0.0216538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/standard/vertical/no-heart-standard-vertical-full-3.png
+  artifactKey: Guid(dbb13281e05119b47a329db851aca6f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/standard/vertical/no-heart-standard-vertical-full-3.png using Guid(dbb13281e05119b47a329db851aca6f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31a017f5890f9a4b9111d58950cf9d07') in 0.039788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Sprites/standard/vertical/standard-vertical-full-3.png
+  artifactKey: Guid(d2c4f2955a537ea4fb53bf5b2ea94916) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/standard/vertical/standard-vertical-full-3.png using Guid(d2c4f2955a537ea4fb53bf5b2ea94916) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c1a1f71b2e3b9a9283540252f6eb593') in 0.0527617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/standard/vertical/no-heart-standard-vertical-empty-2.png
+  artifactKey: Guid(0b63a46c8b739fa45983b47f5c871bf8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/standard/vertical/no-heart-standard-vertical-empty-2.png using Guid(0b63a46c8b739fa45983b47f5c871bf8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d6b057314f53ca0961ce7750c524e70') in 0.039536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/standard
+  artifactKey: Guid(8be14719fbed5d14283a5b6ae8bf1b74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/standard using Guid(8be14719fbed5d14283a5b6ae8bf1b74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46d249b5cf6b1c2db7bec206f6262a91') in 0.0206305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/standard/vertical/standard-vertical-empty-2.png
+  artifactKey: Guid(ad977df49f12e6343bef3b6809b3f864) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/standard/vertical/standard-vertical-empty-2.png using Guid(ad977df49f12e6343bef3b6809b3f864) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96914ed73ccc7d8a8b0b3b6d4d8d2cbb') in 0.0416547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/standard/horizontal/standard-full-3.png
+  artifactKey: Guid(5333465db43f45e48a87d522b14d1642) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/standard/horizontal/standard-full-3.png using Guid(5333465db43f45e48a87d522b14d1642) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '858af9a33ddf2a68d28a42644a7167d8') in 0.041502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/standard/vertical/standard-vertical-3.png
+  artifactKey: Guid(cb78f88c5586b0745be9ac992558949d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/standard/vertical/standard-vertical-3.png using Guid(cb78f88c5586b0745be9ac992558949d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c13a5f20be06a864a0af0c207c7f3503') in 0.0649823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/standard/vertical/standard-empty-1.png
+  artifactKey: Guid(a9643dcb451c0db4e92ce99c9086bed8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/standard/vertical/standard-empty-1.png using Guid(a9643dcb451c0db4e92ce99c9086bed8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a51e7487c89c7b4dc957a9d3b3c90662') in 0.0401202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/standard/vertical/no-heart-standard-vertical-full-1.png
+  artifactKey: Guid(fc2f09c1688074a4387028a2c959110b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/standard/vertical/no-heart-standard-vertical-full-1.png using Guid(fc2f09c1688074a4387028a2c959110b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89d276284bb6213a802abcb1f1d4c9fc') in 0.0484323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/standard/vertical/standard-vertical-2.png
+  artifactKey: Guid(13e6e8e381060e94c9fee9db15ffc7cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/standard/vertical/standard-vertical-2.png using Guid(13e6e8e381060e94c9fee9db15ffc7cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88515062731bb9dea95f64e90d75afae') in 0.0507937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/standard/horizontal/no-heart-standard-full-2.png
+  artifactKey: Guid(f30645f62f3c31e4682729540ca0ac5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/standard/horizontal/no-heart-standard-full-2.png using Guid(f30645f62f3c31e4682729540ca0ac5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73ee8ab3638f5a309a3a250100a0ec15') in 0.0497993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/standard/horizontal/standard-empty-2.png
+  artifactKey: Guid(b762a486d02f6e34e9606dbaff96aed7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/standard/horizontal/standard-empty-2.png using Guid(b762a486d02f6e34e9606dbaff96aed7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd260fe700c4cde30f7d3b362a3904b0') in 0.0477214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.224790 seconds.
+  path: Assets/Sprites/Health/horizontal
+  artifactKey: Guid(d1fab447745e24b42876ae9b94715b6b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Health/horizontal using Guid(d1fab447745e24b42876ae9b94715b6b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b58ed6f34c92733e080e5c15900a985a') in 0.0252105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Sprites/Health/horizontal/standard-3.png
+  artifactKey: Guid(3504ab3538f046a4699a26175f4109d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Health/horizontal/standard-3.png using Guid(3504ab3538f046a4699a26175f4109d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '878be55af6a2d5f97838e6ccbe529d7a') in 0.0383324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Health/horizontal/standard-full-1.png
+  artifactKey: Guid(c139c147466a87a47a26ef51b094ed1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Health/horizontal/standard-full-1.png using Guid(c139c147466a87a47a26ef51b094ed1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '063fb2adc8014c503cb51ac7db74dd3c') in 0.0514679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Health/horizontal/no-heart-standard-empty-1.png
+  artifactKey: Guid(73ec8675ea3b3cd45924a3f3f23e3f6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Health/horizontal/no-heart-standard-empty-1.png using Guid(73ec8675ea3b3cd45924a3f3f23e3f6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '320356a801827cfd36639edbef34b251') in 0.0625477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Health/horizontal/no-heart-standard-empty-2.png
+  artifactKey: Guid(9e3b9b3826e4d04498000841b3305430) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Health/horizontal/no-heart-standard-empty-2.png using Guid(9e3b9b3826e4d04498000841b3305430) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04ad33db5b571d0056de02b1b6c36a70') in 0.0431336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites/Health/vertical/no-heart-standard-vertical-empty-2.png
+  artifactKey: Guid(0b63a46c8b739fa45983b47f5c871bf8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Health/vertical/no-heart-standard-vertical-empty-2.png using Guid(0b63a46c8b739fa45983b47f5c871bf8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a12905f069e33c358e2bd8ae5a6618a') in 0.0397684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/Health/vertical/no-heart-standard-vertical-empty-3.png
+  artifactKey: Guid(7377e4e8f316f594ba52d0a2c6b40b38) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Health/vertical/no-heart-standard-vertical-empty-3.png using Guid(7377e4e8f316f594ba52d0a2c6b40b38) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bdc10b001ce442be731675d842a9e1b') in 0.0557293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/Health/horizontal/no-heart-standard-full-1.png
+  artifactKey: Guid(0a93351874eb33549a04334e54e60696) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Health/horizontal/no-heart-standard-full-1.png using Guid(0a93351874eb33549a04334e54e60696) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3aa6796e3e17663d79dec088bf3ca446') in 0.0445862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Sprites/Health/horizontal/standard-full-2.png
+  artifactKey: Guid(e41d7e2efa1dd2b47af92c07ec9770fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Health/horizontal/standard-full-2.png using Guid(e41d7e2efa1dd2b47af92c07ec9770fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f9ee4aab6d83448e82b90f5fc662a4c') in 0.0475685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Health/vertical/standard-empty-1.png
+  artifactKey: Guid(a9643dcb451c0db4e92ce99c9086bed8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Health/vertical/standard-empty-1.png using Guid(a9643dcb451c0db4e92ce99c9086bed8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f363d7c7b8f2490a652d994c0d315043') in 0.0459483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Health/vertical/no-heart-standard-vertical-full-1.png
+  artifactKey: Guid(fc2f09c1688074a4387028a2c959110b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Health/vertical/no-heart-standard-vertical-full-1.png using Guid(fc2f09c1688074a4387028a2c959110b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0155b8537f5fef3fbcee02973b1fe36d') in 0.0448976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Health/horizontal/standard-empty-1.png
+  artifactKey: Guid(a6a4702afe6375244b43f5ae46365319) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Health/horizontal/standard-empty-1.png using Guid(a6a4702afe6375244b43f5ae46365319) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4d14b11037f58963b49a44c920f04ef') in 0.0443013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Health/horizontal/standard-2.png
+  artifactKey: Guid(7704ca2b7b8894f41894bce7dfd9fa6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Health/horizontal/standard-2.png using Guid(7704ca2b7b8894f41894bce7dfd9fa6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '336600d0529f2cff675370937c340551') in 0.049274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.099314 seconds.
+  path: Assets/Sprites/Health/horizontal/no-heart-standard-empty-2.png
+  artifactKey: Guid(9e3b9b3826e4d04498000841b3305430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Health/horizontal/no-heart-standard-empty-2.png using Guid(9e3b9b3826e4d04498000841b3305430) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df1f299502a3d0792b408619dab566ae') in 0.1940835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/Health/vertical/no-heart-standard-vertical-full-1.png
+  artifactKey: Guid(fc2f09c1688074a4387028a2c959110b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Health/vertical/no-heart-standard-vertical-full-1.png using Guid(fc2f09c1688074a4387028a2c959110b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4672a90aa4fc5f0ed5c83b93ab3a1d89') in 0.0308456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Health/vertical/standard-full-1.png
+  artifactKey: Guid(e70971a8efc221e4fa69d61447a13415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Health/vertical/standard-full-1.png using Guid(e70971a8efc221e4fa69d61447a13415) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35768f45ff7449acfa9065b155d53ade') in 0.0323498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Health/horizontal/standard-empty-3.png
+  artifactKey: Guid(0d2834c9f98aee143a3e26c115cf81f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Health/horizontal/standard-empty-3.png using Guid(0d2834c9f98aee143a3e26c115cf81f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54c077a69bed2066ca43b62ea2e741ef') in 0.0349244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Health/vertical/standard-empty-1.png
+  artifactKey: Guid(a9643dcb451c0db4e92ce99c9086bed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Health/vertical/standard-empty-1.png using Guid(a9643dcb451c0db4e92ce99c9086bed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb10a354e6a4eb7463919386f17fb9df') in 0.0309009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Health/vertical/standard-vertical-3.png
+  artifactKey: Guid(cb78f88c5586b0745be9ac992558949d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Health/vertical/standard-vertical-3.png using Guid(cb78f88c5586b0745be9ac992558949d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d53c89cada995e8f6b4baea7ca583c2') in 0.0385419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/Health/horizontal/standard-empty-1.png
+  artifactKey: Guid(a6a4702afe6375244b43f5ae46365319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Health/horizontal/standard-empty-1.png using Guid(a6a4702afe6375244b43f5ae46365319) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6097aac48f4d3bf7ce4467b3d4f54175') in 0.0305172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Health/horizontal/standard-full-3.png
+  artifactKey: Guid(5333465db43f45e48a87d522b14d1642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Health/horizontal/standard-full-3.png using Guid(5333465db43f45e48a87d522b14d1642) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11d59f81ace35082f93f946cea90ad8d') in 0.0283165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Health/horizontal/no-heart-standard-full-1.png
+  artifactKey: Guid(0a93351874eb33549a04334e54e60696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Health/horizontal/no-heart-standard-full-1.png using Guid(0a93351874eb33549a04334e54e60696) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbf04fd990a8266e2195af0e0a511697') in 0.0302812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sprites/Health/vertical/no-heart-standard-vertical-full-2.png
+  artifactKey: Guid(316962e78aa6d1d479a28916270455f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Health/vertical/no-heart-standard-vertical-full-2.png using Guid(316962e78aa6d1d479a28916270455f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15821664e2596afbf7c0870771fd3474') in 0.0322907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6517 unused Assets / (4.0 MB). Loaded Objects now: 7330.
+Memory consumption went from 168.1 MB to 164.1 MB.
+Total: 37.315600 ms (FindLiveObjects: 2.311700 ms CreateObjectMapping: 1.808900 ms MarkObjects: 29.172800 ms  DeleteObjects: 4.018700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.773 seconds
+Refreshing native plugins compatible for Editor in 3.60 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.943 seconds
+Domain Reload Profiling: 5713ms
+	BeginReloadAssembly (827ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (57ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (314ms)
+	RebuildCommonClasses (120ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (1693ms)
+		LoadAssemblies (1380ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (671ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (597ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (2944ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1968ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (217ms)
+			ProcessInitializeOnLoadAttributes (1493ms)
+			ProcessInitializeOnLoadMethodAttributes (202ms)
+			AfterProcessingInitializeOnLoad (33ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Refreshing native plugins compatible for Editor in 3.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6527 unused Assets / (4.9 MB). Loaded Objects now: 7331.
+Memory consumption went from 167.3 MB to 162.4 MB.
+Total: 23.864900 ms (FindLiveObjects: 2.329300 ms CreateObjectMapping: 2.508400 ms MarkObjects: 12.543700 ms  DeleteObjects: 6.479600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6516 unused Assets / (5.4 MB). Loaded Objects now: 7331.
+Memory consumption went from 167.4 MB to 162.0 MB.
+Total: 27.058000 ms (FindLiveObjects: 2.147800 ms CreateObjectMapping: 2.647200 ms MarkObjects: 14.946700 ms  DeleteObjects: 7.312000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 986.654066 seconds.
+  path: Assets/Scripts/HealthBar.cs
+  artifactKey: Guid(0d6c08346e6ad8c46afdc54661192ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HealthBar.cs using Guid(0d6c08346e6ad8c46afdc54661192ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e18903da7571b82ebb58a196dce7733b') in 0.0037409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6516 unused Assets / (4.3 MB). Loaded Objects now: 7331.
+Memory consumption went from 167.4 MB to 163.1 MB.
+Total: 18.210800 ms (FindLiveObjects: 1.262800 ms CreateObjectMapping: 1.517900 ms MarkObjects: 10.699500 ms  DeleteObjects: 4.728200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.029 seconds
+Refreshing native plugins compatible for Editor in 3.23 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.475 seconds
+Domain Reload Profiling: 4500ms
+	BeginReloadAssembly (571ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (40ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (158ms)
+	RebuildCommonClasses (106ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (1236ms)
+		LoadAssemblies (849ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (656ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (593ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (2476ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1707ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (29ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (1310ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 3.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6527 unused Assets / (4.7 MB). Loaded Objects now: 7333.
+Memory consumption went from 167.3 MB to 162.6 MB.
+Total: 22.066900 ms (FindLiveObjects: 1.447700 ms CreateObjectMapping: 2.035900 ms MarkObjects: 13.519500 ms  DeleteObjects: 5.061400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.050 seconds
+Refreshing native plugins compatible for Editor in 2.93 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.718 seconds
+Domain Reload Profiling: 4763ms
+	BeginReloadAssembly (527ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (133ms)
+	RebuildCommonClasses (108ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (1286ms)
+		LoadAssemblies (910ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (640ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (587ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2719ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1896ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (187ms)
+			ProcessInitializeOnLoadAttributes (1477ms)
+			ProcessInitializeOnLoadMethodAttributes (179ms)
+			AfterProcessingInitializeOnLoad (32ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 3.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6527 unused Assets / (4.4 MB). Loaded Objects now: 7335.
+Memory consumption went from 169.1 MB to 164.8 MB.
+Total: 19.525900 ms (FindLiveObjects: 1.456100 ms CreateObjectMapping: 1.217600 ms MarkObjects: 11.992200 ms  DeleteObjects: 4.857100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.844 seconds
+Refreshing native plugins compatible for Editor in 3.34 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.607 seconds
+Domain Reload Profiling: 4451ms
+	BeginReloadAssembly (515ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (41ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (118ms)
+	RebuildCommonClasses (113ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (1109ms)
+		LoadAssemblies (829ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (543ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (499ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2608ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1818ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (168ms)
+			ProcessInitializeOnLoadAttributes (1410ms)
+			ProcessInitializeOnLoadMethodAttributes (195ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 6.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6527 unused Assets / (3.7 MB). Loaded Objects now: 7337.
+Memory consumption went from 169.2 MB to 165.5 MB.
+Total: 32.167300 ms (FindLiveObjects: 1.674800 ms CreateObjectMapping: 2.530800 ms MarkObjects: 19.049100 ms  DeleteObjects: 8.908700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.859 seconds
+Refreshing native plugins compatible for Editor in 3.79 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.810 seconds
+Domain Reload Profiling: 4670ms
+	BeginReloadAssembly (476ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (109ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (1180ms)
+		LoadAssemblies (860ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (573ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (484ms)
+			ResolveRequiredComponents (68ms)
+	FinalizeReload (2812ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1938ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (202ms)
+			ProcessInitializeOnLoadAttributes (1509ms)
+			ProcessInitializeOnLoadMethodAttributes (177ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 5.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6527 unused Assets / (4.5 MB). Loaded Objects now: 7339.
+Memory consumption went from 169.2 MB to 164.7 MB.
+Total: 21.546100 ms (FindLiveObjects: 1.485600 ms CreateObjectMapping: 1.624100 ms MarkObjects: 12.979000 ms  DeleteObjects: 5.453100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.850 seconds
+Refreshing native plugins compatible for Editor in 4.77 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.671 seconds
+Domain Reload Profiling: 4519ms
+	BeginReloadAssembly (467ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (106ms)
+	RebuildCommonClasses (103ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (1152ms)
+		LoadAssemblies (866ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (534ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (488ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2672ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1776ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (196ms)
+			ProcessInitializeOnLoadAttributes (1359ms)
+			ProcessInitializeOnLoadMethodAttributes (177ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 3.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6527 unused Assets / (5.1 MB). Loaded Objects now: 7341.
+Memory consumption went from 169.2 MB to 164.2 MB.
+Total: 24.084300 ms (FindLiveObjects: 1.531000 ms CreateObjectMapping: 1.856800 ms MarkObjects: 13.514400 ms  DeleteObjects: 7.179100 ms)
+
+Prepare: number of updated asset objects reloaded= 0

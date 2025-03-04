@@ -25,7 +25,6 @@ public class Enemy1: MonoBehaviour
         if(playerInSight()){
             if(cooldownTimer >= attackCooldown){
                anim.SetTrigger("Attack");
-               Debug.Log("Attacking");
             }
         }
     }

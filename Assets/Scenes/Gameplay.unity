@@ -1010,7 +1010,7 @@ GameObject:
   - component: {fileID: 894790803}
   - component: {fileID: 894790804}
   - component: {fileID: 894790805}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fallen_Angel
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1121,7 +1121,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.078186154, y: -0.21892726}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1131,7 +1131,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.98, y: 5.61}
+  m_Size: {x: 2.572614, y: 5.172146}
   m_EdgeRadius: 0
 --- !u!50 &894790801
 Rigidbody2D:
@@ -1748,8 +1748,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackCooldown: 1
-  colliderDistance: 0.5
-  range: 6
+  colliderDistance: 1.47
+  range: 1
   damage: 2
   boxCollider: {fileID: 1294073256}
   playerLayer:
@@ -1808,7 +1808,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.82, y: 5.93}
+    oldSize: {x: 4, y: 5.78}
     newSize: {x: 3.82, y: 5.93}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
